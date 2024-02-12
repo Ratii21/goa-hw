@@ -1,0 +1,3 @@
+print("I became friends with datuna barbaqadze, nika nazarashvvili, andria alavidze, data fofkhadze, data beruashvili, giorgi robakidze, iakobi dagonadze, nika sardanadze, nino tsamalashvili and more.")
+
+print("I do not know much about GOA yet, but I am sure that the GOA courses will be a great experience for me. I think GOA is the one of the best academy in the world. I knew it from the first day of that amazing journay, so I am very happy for being a member of the one of the biggest academy in the world")
