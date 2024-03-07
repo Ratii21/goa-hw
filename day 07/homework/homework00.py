@@ -1,11 +1,8 @@
-#float ფუნქცია
-print(float("3.7"))
-print(float(7))
+name = "rati"
+print(type(name))
 
-#int ფუნქცია
-print(int(5.0))
-print(int("7"))
+age = 14
+print(type(age))
 
-#str ფუნქცია
-print(str(7.4) + "5")
-print(str(4) + "7.8")
+heigh = 1.69
+print(type(1.69))
