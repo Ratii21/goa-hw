@@ -1,8 +1,9 @@
-name = input("enter you name: ")
-
+name = input("enter you name or quit: ")
+i = 1
 while name != "quit":
-    print(name)
-    name = input("enter your name if you want to continue , but if you want to stop printing your name enter quit: ")
+    print("if you want to quit enter quit, I said it " ,i, " times")
+    name = input("enter you name or quit: ")
+i += 1
     
 
 
