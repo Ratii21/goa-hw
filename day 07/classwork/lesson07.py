@@ -1,22 +1,4 @@
-#classwork
-
-#1
-name = input("enter you name :")
-surname = input("enter your surname :")
-age = input("enter your age :")
-print(name)
-print(surname)
-print(age)
-
-#2
-num1 = int(input("enter any number :"))
-num2 = int(input("enter any number :"))
-
-print(num1 > num2)
-print(num1 < num2)
-print(num1 == num2)
-
-#data type
+''' data type '''
 
 print(type(6))
 print(type("rati"))

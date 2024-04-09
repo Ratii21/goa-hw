@@ -1,4 +1,6 @@
-#cntrl + f(search)
+''' inputs and outputs '''
+
+
 print(input("enter you name :"))
 
 num1 = int(input("enter any number :"))
@@ -8,3 +10,4 @@ surname = input("enter your surname :")
 print(num1 + num2)
 print(name + surname)
 
+#cntrl + f(search)

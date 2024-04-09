@@ -4,5 +4,5 @@ index = int(input("enter index between 0 and 9: "))
 if index <= 9:
     print(numbers[index])
 else:
-    print("enter valid index: ")
+    print("enter valid index! ")
     index = int(input("please enter index between 0 and 9: "))

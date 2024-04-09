@@ -3,12 +3,12 @@ name = ["rati","gio","luka"]
 print(len(name))
 
 
-#1
+
 user_name = input("enter your firsname and lastname: ")
 for i in range(0, len(user_name)):
     print(user_name[i])
 
-#2
+
 fullname = input("enter your fullname: ")
 for i in range(0, len(fullname), 2):
     print(fullname[i])
@@ -21,7 +21,6 @@ print("melon" in cart)
 
 #ერთ ტოლობა თითქმის ყველა პროგრამაში გამოიყენება მხოლოდ იმისთვის რომ ცვლადს მივანიჭოთ მნიშვნელობა
 
-#3
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
 if 5 in numbers:
@@ -30,7 +29,7 @@ else:
     print("No 5 is not in numbers list")
 
 
-#4
+
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
 result = 0

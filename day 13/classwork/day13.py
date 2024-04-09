@@ -1,6 +1,5 @@
-#cntrl + shift + L - ეს გამოიყენება ყველას მოსანიშნად
+''' if - elif - else '''
 
-#1
 num1 = int(input("enter any number: "))
 
 if num1 > 0:
@@ -10,7 +9,7 @@ elif num1 < 0:
 else:
     print("number equals 0")
 
-#2
+
 age = int(input("enter you age: "))
 
 if age >= 0 and age  < 18:
@@ -19,3 +18,6 @@ elif age >= 18 and age < 50:
     print("you are an adult")
 else:
     print("you are an old")
+
+
+#cntrl + shift + L - ეს გამოიყენება ყველას მოსანიშნად
