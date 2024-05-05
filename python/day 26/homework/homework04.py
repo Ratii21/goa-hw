@@ -5,7 +5,7 @@ def even_div_2_odd_mul_2(numbers):
     for i in range(0,len(numbers)):
         
         if numbers[i] % 2 == 0:
-            result.append(numbers[i] / 2) 
+            result.append(numbers[i] // 2) 
         else:
             result.append(numbers[i] * 2) 
             
