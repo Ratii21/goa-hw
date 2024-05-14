@@ -2,8 +2,8 @@ def capital_letter(words):
     
     new_list = []
     
-    for i in range(0,len(words)):
-        new_list.append((words[i].title()) or (words[i].capitalize()))
+    for i in words:
+        new_list.append(i.capitalize())
     
     return(new_list)
 
