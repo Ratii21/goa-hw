@@ -41,6 +41,7 @@ for num in numbers:
 print(result)
 
 
+
 names = ["rati","luka","gio","nugo"]
 for i in range(0,len(names)):
     print(names[i])
