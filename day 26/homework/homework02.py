@@ -32,3 +32,4 @@ def check_if_prime(num):
     return str(num) + ' is prime'
 
 print(check_if_prime(5))
+
