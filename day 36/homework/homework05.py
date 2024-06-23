@@ -4,4 +4,4 @@ def all_nines(x):
             return i
     return -1
 
-print(all_nines(10))
+print(all_nines(27))

@@ -4,3 +4,5 @@ def repeats(arr):
         if arr.count(i) == 1:
             sum += i
     return sum
+
+

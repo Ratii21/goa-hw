@@ -93,5 +93,49 @@ border-color: red
 -->
 
 
+<!--  (tables)ცხრილები დაგეხმარებათ აჩვენოთ მონაცემები ისე, რომ ადვილი იყოს სკანირება, შედარება და ანალიზი.
+    თქვენ შეგიძლიათ დაამატოთ ცხრილი თქვენს ვებ გვერდზე <table> კონტეინერ თეგით.
+    მონაცემების ცხრილი მზადდება რიგებითა და სვეტებით.
+    თქვენ შეგიძლიათ დაამატოთ რიგები ცხრილში <tr> (table row) კონტეინერის თეგით. 
+    რიგები ჩასმულია <table> თეგის შიგნით.
+    
+<table>
+    <tr>
+        row data
+    </tr>
+</table>
+
+    ცხრილის სტილირებისთვის ვიყენებთ style ატრიბუტს.
+    <td> ელემენტები იმავე მწკრივში ნაჩვენებია იმავე ხაზზე, ერთმანეთის მიყოლებით, რაც ნიშნავს იმას რომ <td> ელემენტები inline ელემენტებია.
+    ცხრილები ჩვეულებრივ შეიცავს სათაურებს. სათაური არის სპეციალური უჯრა ცხრილის ზედა ნაწილში, რომელიც გამოიყენება თითოეული სვეტის დასახელებისთვის.
+    თქვენ შეგიძლიათ შექმნათ სათაურის უჯრები <th> თეგით
+
+<table style="border: solid;color: brown;">
+    <tr>
+        <th style="border: solid;color: brown;">Name</th><th style="border: solid;color: brown;">Surname</th>
+    </tr>
+    <tr>
+        <td style="border: solid;color: brown;">Rati</td><td style="border: solid;color: brown;">Bandelidze</td>
+    </tr>
+</table>
+
+    თქვენ შეგიძლიათ შექმნათ უჯერბი, რომლებიც იკავებენ მრავალ მწკრივს და/ან სვეტს, ატრიბუტების გამოყენებით colspan და rowspan. ამას ეწოდება უჯრედების შერწყმა.
+    colspan  ზრდის უჯრის ზომას ჰორიზონტალურა.
+    rowspan ზრდის უჯრის ზომას ვერტიკალურად.
+
+
+<table style="border: solid;color: blue;width: 300px;height: 100; ">
+    <tr>
+        <th style="border: solid;color: blue;width: 100px; " rowspan="3">Name</th>
+        <th style="border: solid;color: blue;width: 100px; " colspan="3">Age</th>
+    </tr>
+    <tr>
+       <td style="border: solid;color: blue;width: 100px; "><center>rati:15</center></td> 
+       <td style="border: solid;color: blue;width: 100px; "><center>luka:15</center></td>
+    </tr>
+</table>
+-->
+
+
 
 
