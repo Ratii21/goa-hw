@@ -1,0 +1,84 @@
+body {
+    border-radius: 20px;
+    width: 380px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 20px gray;
+    
+}
+
+
+#div1 {
+    text-align: left;
+    width: 360px;
+    color: white;
+    background: linear-gradient(to right, rgb(160, 49, 175) 0%, rgb(217, 140, 193) 70%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: Trebuchet MS;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+#div2 {
+    font-family: Trebuchet MS;
+    text-align: center;
+    
+}
+
+form {
+    border-color: gray;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Trebuchet MS;
+
+
+}
+
+.input1 {
+    padding-left: 15px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 40px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Trebuchet MS;
+}
+
+.input2 {
+    padding-left: 15px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 40px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Trebuchet MS;
+}
+
+.input3 {
+    padding-left: 15px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 40px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, rgb(160, 49, 175) 0%, rgb(217, 140, 193) 70%);
+    color: white;
+    text-align: center;
+    font-family: Trebuchet MS;
+    
+    
+
+
+}

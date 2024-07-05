@@ -1,0 +1,10 @@
+div {
+    background-color: rgb(24, 95, 86);
+    width: 100px;
+    padding: 20px;
+    border-width: 20px;
+    border-style: double;
+    text-align: center;
+    margin: 50px;
+
+}
