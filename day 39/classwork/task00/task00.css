@@ -1,0 +1,30 @@
+
+
+p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    width: 400px;
+    height: 200px;
+
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+
+    background-color: yellow;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 15px;
+
+}
+
+/* 
+   ელემენტის რეალური სიგანის გამოსათვლელად: ელემენტის სიგანეს უნდა დავუმატოთ, 
+ პადინგის მარჯვენა და მარცხენა ზომა და დავუმატოთ ელემენტის საზღვრის სიგანე გამრავლებული ორზე.
+   ელემენტის რეალური სიმაღლის გამოსათვლელად: ელემენტის სიმაღლეს უნდა დავუმატოთ, 
+ პადინგის ზედა და ქვედა ზომები და დავუმატოთ ელემენტის საზღვრის სიგანე გამრავლებული ორზე.
+*/
