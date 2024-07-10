@@ -1,8 +1,9 @@
-body {
+* {
     border-radius: 20px;
     width: 380px;
     padding-bottom: 20px;
     box-shadow: 1px 1px 20px gray;
+    margin: 125px;
     
     
 }
