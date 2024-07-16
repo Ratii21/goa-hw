@@ -10,3 +10,58 @@
  ვიყენებთ flex-direction ქვეთვისებას. მას ჩვენ ძირითადად გადავცემთ მნიშვნელობებს ან row(სტრიქონი) ან column(სვეტი). 
  justify-content ელემენტს უცვლის ადგილ-მდებარეობას მთავარი ღერძის მიმართ, 
  /* ხოლო align-item გადამკვეთი ღერძის მიმართ უცვლის ელემენტს ადგილ-მდებარეობას */
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.parent {
+    width: 1200px;
+    height: 1200px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    color: white;
+    border: 3px solid blue;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* order ყველა flex-ელემენტზე შეგვიძლია გამოვიყენოთ.
+ ყველა flex-ელემენტს თავიდან გააჩნია order-0. ზოგადად order
+ გამოიყენება  ელემენტების დასალაგებლად.*/
+
+/* align-self არის იგივე რაც aling-item განსხვავება კი მხოლოდ ისაა, რომ
+ align-self გამოიყენება ინდივიდუალურ ელემენტზე. */
+
+/* flex-wrap გამოიყენება იმაში რომ დავაცალკეოთ ელემენტები ხაზობრივად. 
+ flex-wrap მნიშვნელობად იღებს nowrap(default მნიშვნელობა)-ყველა ელემენტი ერთ ხაზზეა განლაგებული,
+ wrap-დაამატებს იმდენ ხაზს რამდენიც საჭიროა რათა ელემენტები უპრობლემოდ დაეტიოს გვერძე. 
+ */
+
+/* flex-flow წარმოადგენს ორი ფუნქციის, flex-direction-ისა და flex-wrap-ის
+ გაერთიანებულ ვერსიას. მას მნიშვნელობად ჯერ გადაეცემა flex-direction-ის მნიშვნელობა, 
+ ხოლო შემდეგ flex-wrap-ის მნიშვნელობა. */
+
+/* align-content გამოიყენება ხაზებს შორის დაშორებების განსაზღვრისთვისა და მათი მდებარეობის შეცვლისთვის. */
+

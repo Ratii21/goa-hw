@@ -1,0 +1,3 @@
+#print("rati")
+
+print("rati")
