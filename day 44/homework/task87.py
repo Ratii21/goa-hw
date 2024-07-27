@@ -7,5 +7,5 @@ def multiplication(num):
         print("{} * {} = {}".format(num, i, result))
 
         i += 1
-    
+multiplication(4)
 
