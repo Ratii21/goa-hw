@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+body{
+    height: 200vh;
+    background-color: rgb(255, 230, 155);
+}
+
+.div1{
+
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.div2{
+    position: fixed;
+    border: 0px solid rgb(0, 0, 0);
+    background: linear-gradient(to left, rgb(235, 178, 54) 30%, rgb(255, 250, 192) 70%) ;
+    margin: 10px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+
+
+
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.img1{
+    padding: 5px;
+    margin: 80px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    border-radius: 10px;
+
+}
+.div4{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.div5{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.div6{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.div7{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.div8{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.div9{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.img1:hover{
+    background-color: rgb(255, 224, 110);
+}
