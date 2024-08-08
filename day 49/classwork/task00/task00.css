@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Trebuchet MS;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(250, 212, 116);
+}
+
+.MainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.image{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    margin-top: 90px;
+    border: 0px;
+    background-color: rgb(86, 21, 21);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1{
+    color: rgb(250, 212, 116);
+    text-align: center;
+}
+
+main{
+    border: 5px solid rgb(86, 21, 21);
+    color: rgb(86, 21, 21);
+    background-color: rgb(250, 212, 116);
+    margin-bottom: -16px;
+}
+
+p{
+    font-size: medium;
+    text-align: start;
+}
+
+footer{
+    border: 0px;
+    background-color: rgb(86, 21, 21);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a{
+    display: block;
+    color: rgb(250, 212, 116);
+    text-decoration: none;
+    text-align: center;
+
+}
+
+a:hover{
+    text-shadow: 0px 0px 5px white ;
+}
