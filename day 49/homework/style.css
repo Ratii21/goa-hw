@@ -12,16 +12,26 @@ body{
 
 .nav{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: rgb(217, 217, 217);
-    border: 0px;
-    box-shadow: 0px 0px 20px rgb(189, 189, 189);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(217, 217, 217);;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 a{
     text-align: center;
     align-content: center;
-    background-color: rgb(217, 217, 217);
+    border-left: 1px solid rgb(174, 140, 140);
+    border-right: 1px solid rgb(174, 140, 140); 
+    border-bottom: 1px solid rgb(174, 140, 140);
+}
+
+.index{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    transition: 0.2s;
+    background-color: rgb(200, 200, 200);
 }
 
 .text{
@@ -29,12 +39,14 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 900;
-    transition: 0.5s;
+    transition: 0.2s;
+    background-color: rgb(217, 217, 217);
    
 }
 
 .text:hover{
     background-color: rgb(200, 200, 200);
+    
 }
 
 .img{
@@ -43,6 +55,7 @@ a{
 
 .img:hover{
     background-color: rgb(200, 200, 200);
+    
 }
 
 
@@ -57,11 +70,11 @@ a{
     
 
 
-main{
+.main00{
     background-color: rgb(217, 217, 217);
-    border: 0px;
+    border: 5px solid gray;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgb(189, 189, 189);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 
     
 
@@ -90,4 +103,59 @@ main{
 }
 
 
+.main01{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+    
+    
+}
 
+
+
+.div02{
+    background-image: url(./img/GOA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 399px;
+    height: 285px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.div03{
+    background-color: rgb(217, 217, 217);
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    width: 399px;
+    height: 285px;
+    
+}
+
+.h2{
+    text-align: center;
+    font-family: Trebuchet MS;
+    padding-top: 40px;
+    color: #16514c;
+}
+
+.p2{
+    font-family: Trebuchet MS;
+    padding: 20px;
+    color: #16514c;
+}
+
+.div002{
+    background-image: url(./img/chadman.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 399px;
+    height: 285px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
