@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Trebuchet MS;
+}
+
+body{
+    height: 100vh; 
+    background-image: url(background.jpg);  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    border: 0px;
+    background-color: white;
+    width: 900px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(133, 122, 122); 
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.txt{
+    text-decoration: none;
+    margin: 15px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: large;
+    margin: 10px;
+}
+
+#button{
+    border: 0px;
+    border-radius: 20px;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+
+
+h1{
+    color: rgb(55, 55, 55);
+}
+
+p{
+    margin-top: 25px;
+
+}
+
+button{
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+img{
+    margin: 20px 0px 0px 0px;
+
+}
