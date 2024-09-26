@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px red;
+    background-color: red;
+    color: black;
+    font-size:xx-large;
+    font-family: fantasy;
+    transition: 0.5s;
+    transition-delay: 0.5s
+}   
+
+.div1:hover{
+    color: red;
+    background-color: black;
+    border-color: red;
+    box-shadow: 0px 0px 20px black;
+    transform: scale(0.5);
+}
+
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px red;
+    background-color: red;
+    color: black;
+    font-size:xx-large;
+    font-family: fantasy;
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+@keyframes colorChange{
+    0% {
+        background-color: red;
+    }
+    20% {
+        background-color: blue;
+    }
+    40%{
+        background-color: green;
+    }
+    60%{
+        background-color: rgb(153, 0, 135);
+    }
+    80%{
+        background-color: rgb(157, 255, 0);
+    }
+    10%{
+        background-color: rgb(0, 251, 255);
+    }
+}
