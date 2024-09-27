@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework01</title>
+</head>
+<body>
+    <button id="btn">original button</button>
+    <p id="p1">original paragraph</p>
+    <img id="image" src="ugly dog.jpg" alt="" width="564" height="847">
+
+    <script>
+        let button = document.getElementById("btn")
+        console.log(button)
+        button.textContent = "updated button"
+        let p = document.getElementById("p1")
+        console.log(p)
+        p.textContent = "updated paragraph"
+        let img = document.getElementById("image")
+        console.log(img)
+        img.src = "preety dog.jpg"
+
+    </script>
+</body>
+</html>
