@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 1440px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-row: 25% 25% 25% 25%;
+}
+
+
+#div1{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    border: 0px;
+    border-radius: 15px;
+    background-color: rgb(208, 240, 240);
+}
+
+#div2{
+
+    grid-column: 1/5;
+    grid-row: 2/4;
+    border: 0px;
+    border-radius: 15px;
+    background-color: Purple;
+
+}
+
+#div3{
+    grid-column: 5/11;
+    grid-row: 1/2;
+    border: 0px;
+    border-radius: 15px;
+    background-color: rgb(161, 228, 59);
+}
+
+
+/* დასასრულებელია */
