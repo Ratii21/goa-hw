@@ -7,3 +7,4 @@ function highest(lst){
     }
     return x
 }
+console.log(highest([1,5,6,3,4,8,3]))

@@ -4,7 +4,9 @@ function count(str,ltr){
         if (i === ltr){
             counter += 1
         }
-    return counter
     }
+    return counter
 
 }
+console.log(count("iyo da ara iyo ra, iyo erti mela", " "))
+

@@ -6,3 +6,5 @@ function evenOrOdd(x){
         return "Odd"
     }
 }
+
+console.log(evenOrOdd(5))

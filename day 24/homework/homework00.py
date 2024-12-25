@@ -8,4 +8,4 @@ def is_palidrome (word):
     print(is_palidrome)
 
 
-is_palidrome("rati")
+is_palidrome("level")
