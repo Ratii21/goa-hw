@@ -1,0 +1,19 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url(./img/background-desktop.png);
+}
+body{
+    height: 100vh;
+}
+
+li{
+    list-style-position: inside;
+    list-style-image: url(./img/logo-mark.svg);
+    margin-bottom: 100px;
+
+}
+
+p{
+    margin-bottom: 100px;
+}
