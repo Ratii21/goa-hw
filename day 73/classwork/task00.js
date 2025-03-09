@@ -12,3 +12,4 @@ function switchItUp(number) {
       case 9: return 'Nine';
     }
   }
+
